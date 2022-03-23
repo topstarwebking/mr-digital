@@ -12,6 +12,7 @@
 // functions_tww.php
 require_once "app_start.php";
 use Twilio\Rest\Client;
+$a = 0;
 if (!empty($wo["config"]["adult_images_file"])) {
     putenv("GOOGLE_APPLICATION_CREDENTIALS=" . $wo["config"]["adult_images_file"]);
 }
