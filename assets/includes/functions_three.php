@@ -11,6 +11,7 @@
 /* Script Main Functions (File 3) */
 function Wo_RegisterPoint($post_id, $type, $action = '+', $user_id = 0) {
     global $wo, $sqlConnect, $db;
+    $a =  0;
     if ($wo['config']['point_level_system'] == 0) {
         return false;
     }
