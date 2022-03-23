@@ -19,6 +19,7 @@ if (!empty($_GET)) {
             $value      = preg_replace('/on[^<>=]+=[^<>]*/m', '', $value);
             $value      = preg_replace('/\((.*?)\)/m', '', $value);
             $_GET[$key] = strip_tags($value);
+            $a = 0;
         }
     }
 }
